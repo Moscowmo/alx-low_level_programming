@@ -2,7 +2,7 @@
 #define MAIN_H_INCLUDED
 
  _putchar(char c);
-void print_alphabet(void);
+voidprint_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);
 int _isalpha(int c);
@@ -14,5 +14,5 @@ void times_table(void);
 int add(int, int);
 void print_to_98(int n);
 void print_times_table(int n);	
-void num(intr, intn);
+void num(intr,intn);
 #endif
