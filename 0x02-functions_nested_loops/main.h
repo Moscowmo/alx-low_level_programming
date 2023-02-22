@@ -1,1 +1,21 @@
-#ifndef	MAIN_H_INCLUDED					#define MAIN_H_INCLUDED					_putchar(char c);					void	print_alphabet(void);			void print_alphabet_x10(void);			int _islower(int c);						int _isalpha(int c);			int print_sign(int n);				int _abs(int);					int print_last_digit(int);			void jack_bauer(void);					void times_table(void);				int add(int, int);				void print_to_98(int n);			void print_times_table(int n);				void num(int r, int n);				#endif
+#include "main.h"
+
+/**
+ * print_alphabet_x10 - print letters in lowercase x10
+ */
+void print_alphabet_x10(void)
+{
+        char letter = 'a';
+        int i, j;
+
+        for (i = 0; i < 10; i++)
+        {
+                for (j = 0; j < 26; j++)
+                {
+                        _putchar(letter);
+                        letter++;
+                }
+                _putchar('\n');
+                letter = 'a';
+        }
+}
