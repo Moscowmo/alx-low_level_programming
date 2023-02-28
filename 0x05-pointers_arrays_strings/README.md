@@ -1,1 +1,1 @@
- this is a pointer  readme file
+my c programming readme
