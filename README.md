@@ -1,2 +1,1 @@
-my world in readme file
-Been on the project for two days now
+this readme file for 0x07-pointers_arrays_strings

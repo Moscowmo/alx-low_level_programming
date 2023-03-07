@@ -1,1 +1,1 @@
-this is my readme fle for pointers arrays and strings
+0.05  C - Pointers, arrays and strings

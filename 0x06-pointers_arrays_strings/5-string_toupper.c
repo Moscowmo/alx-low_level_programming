@@ -5,7 +5,8 @@
  * @s: string to make upper
  * Return: return value of upper
  */
-char *string_toupper()
+int a
+int b
 {
 	int index = 0;
 
